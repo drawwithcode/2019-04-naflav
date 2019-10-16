@@ -45,4 +45,13 @@ function draw() {
   textAlign(CENTER);
   text(myText, width / 3, height / 3);
 
+  //warning
+  var myTexto = "(if nothing happens, refresh; he's shy)";
+  textFont("Roboto Mono");
+  textSize(10);
+  fill('#E9E9E7');
+  textAlign(LEFT);
+  text(myTexto, width / 3, height / 3 + 30);
+
+
 }
